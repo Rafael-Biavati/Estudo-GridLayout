@@ -1,0 +1,36 @@
+
+
+*{
+    font-size: 1.3em;
+}
+.grid-base{
+    width:500px;
+    height: 700px;
+    background-color: rgb(136, 172, 219);
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 10% 40% 40% 10%;
+}
+
+div{
+    text-align: center;
+}
+
+#div1{
+    background-color: rgb(212, 127, 127);
+    grid-column: 1 / -1;
+}
+#div2{
+    background-color: rgb(125, 125, 204);
+    grid-row: 2 / -2;
+}
+#div3{
+    background-color: rgb(121, 97, 97);
+}
+#div4{
+    background-color: rgb(125, 218, 218);
+}
+#div5{
+    background-color: rgb(182, 201, 139);
+    grid-column: 1 / -1;
+}
